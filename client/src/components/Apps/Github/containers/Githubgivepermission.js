@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useContext } from "react";
 import '../style/githubgivepermission.css';
 import { BiMessageAltDetail } from 'react-icons/bi';
 import { CgMicrosoft } from 'react-icons/cg';
 import { BsFillCaretRightFill } from 'react-icons/bs';
 import { CgArrowsExchangeAlt } from 'react-icons/cg';
 
+
 const Githubgivepermission = () => {
+    
     return (
         <section className="ggp">
             <section className="ggpSection">
                 <div className="ggpdiv">
+
+
+                    <p className="ggpP ggpBold ggpMarginbottom">
+                        Logged In Success
+                    </p>
                     <p className="ggpP">
                         <img
                             src='https://image.flaticon.com/icons/png/512/25/25231.png'
@@ -25,6 +32,7 @@ const Githubgivepermission = () => {
                         </svg>
                     </p>
                     <div className="ggpdiv2">
+
                         <p className="ggpBold ggpMargintop">Github is requesting permission to access the Zuri workspace</p>
                     </div>
                     <div className="ggpLeft">
