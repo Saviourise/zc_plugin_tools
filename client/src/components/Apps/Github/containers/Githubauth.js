@@ -78,7 +78,7 @@ const Githubauth = () => {
 
                                 <a
                                     className="authbtn1"
-                                    href={`https://github.com/login/oauth/authorize?scope=user&client_id=${"feada197252d90d18e3c"}&redirect_uri=${"http://localhost:3000/github/githubgivepermission"}`}
+                                    href={`https://github.com/login/oauth/authorize?scope=user&client_id=${"feada197252d90d18e3c"}&redirect_uri=${"./github/githubgivepermission"}`}
                                     onClick={() => {
                                         setData({ ...data, errorMessage: "" });
                                     }}
